@@ -15,7 +15,7 @@
       <guid>c1f8bb06-6f0e-4aed-b616-ca576972860b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login</testCaseId>
+      <testCaseId>Test Cases/Swag_Labs/login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

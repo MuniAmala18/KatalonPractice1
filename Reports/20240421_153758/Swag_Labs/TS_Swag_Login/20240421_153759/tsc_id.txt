@@ -1,0 +1,1 @@
+Test Suites/Swag_Labs/TSC_Login_Navigation

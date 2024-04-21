@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Product_Navigation" time="48.026" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Product_Navigation" tests="1" failures="0" errors="0" time="48.026" skipped="0" timestamp="21-04-2024T15:36:04" hostname="VH427KA - IN3554302W1.ey.net" id="Test Suites/Swag_Labs/TS_Product_Navigation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\VH427KA\\git\\KatalonPractice1\\Reports\\20240421_153559\\Swag_Labs\\TS_Product_Navigation\\20240421_153600"/>
+         <property name="logFiles" value="C:\\Users\\VH427KA\\git\\KatalonPractice1\\Reports\\20240421_153559\\Swag_Labs\\TS_Product_Navigation\\20240421_153600\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="VH427KA - IN3554302W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="c6e2db838c72d1a5fee1fa5d4233fb94"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Swag_Labs/Product_Navigation" time="47.842" classname="Test Cases/Swag_Labs/Product_Navigation" status="PASSED">
+         <system-out><![CDATA[21-04-2024T15:36:05 - [TEST_CASE][PASSED] - Test Cases/Swag_Labs/Product_Navigation: Test Cases/Swag_Labs/Product_Navigation
+
+21-04-2024T15:36:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Swag_Labs/Swag_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Swag_Labs/Swag_Login' successfully
+
+21-04-2024T15:36:05 - [TEST_CASE][PASSED] - Test Cases/Swag_Labs/Swag_Login: Test Cases/Swag_Labs/Swag_Login
+
+21-04-2024T15:36:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2024T15:36:06 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-04-2024T15:36:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2024T15:36:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2024T15:36:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/index.html"): Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+21-04-2024T15:36:11 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+21-04-2024T15:36:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_userse"): Text 'standard_userse' is set on object 'Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+21-04-2024T15:36:12 - [MESSAGE][PASSED] - Text 'standard_userse' is set on object 'Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+21-04-2024T15:36:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac")): Object: 'Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac' is clicked on
+
+21-04-2024T15:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac' is clicked on
+
+21-04-2024T15:36:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "9NLz+4tGZcQ="): Text ****** has been set on object 'Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+21-04-2024T15:36:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+21-04-2024T15:36:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+21-04-2024T15:36:14 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+21-04-2024T15:36:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+21-04-2024T15:36:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+21-04-2024T15:36:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+21-04-2024T15:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+21-04-2024T15:36:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Swag_Labs/Swag_Login' successfully
+
+21-04-2024T15:36:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product_Navigation/Page_Swag Labs/div_Sauce Labs Backpack")): Object: 'Object Repository/Product_Navigation/Page_Swag Labs/div_Sauce Labs Backpack' is clicked on
+
+21-04-2024T15:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Navigation/Page_Swag Labs/div_Sauce Labs Backpack' is clicked on
+
+21-04-2024T15:36:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/inventory-item.html?id=4"): Navigate to 'https://www.saucedemo.com/v1/inventory-item.html?id=4' successfully
+
+21-04-2024T15:36:17 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/inventory-item.html?id=4' successfully
+
+21-04-2024T15:36:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Product_Navigation/Page_Swag Labs/img_- Back_inventory_details_img")): Object 'Object Repository/Product_Navigation/Page_Swag Labs/img_- Back_inventory_details_img' is visible
+
+21-04-2024T15:36:17 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Navigation/Page_Swag Labs/img_- Back_inventory_details_img' is visible
+
+21-04-2024T15:36:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Product_Navigation/Page_Swag Labs/div_Sauce Labs Backpack"), "Sauce Labs Backpack"): Actual text and expected text of test object 'Object Repository/Product_Navigation/Page_Swag Labs/div_Sauce Labs Backpack' are matched.
+
+21-04-2024T15:36:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='item_4_title_link']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-04-2024T15:36:49 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Product_Navigation/Page_Swag Labs/div_Sauce Labs Backpack'. Try using Self-healing.
+
+21-04-2024T15:36:49 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Product_Navigation/Page_Swag Labs/div_Sauce Labs Backpack' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='$29.99'])[1]/preceding::div[2]'.
+
+21-04-2024T15:36:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product_Navigation/Page_Swag Labs/div_Sauce Labs Backpack' are matched.
+
+21-04-2024T15:36:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product_Navigation/Page_Swag Labs/div_Swag Labs")): Object: 'Object Repository/Product_Navigation/Page_Swag Labs/div_Swag Labs' is clicked on
+
+21-04-2024T15:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Navigation/Page_Swag Labs/div_Swag Labs' is clicked on
+
+21-04-2024T15:36:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product_Navigation/Page_Swag Labs/button_Open Menu")): Object: 'Object Repository/Product_Navigation/Page_Swag Labs/button_Open Menu' is clicked on
+
+21-04-2024T15:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Navigation/Page_Swag Labs/button_Open Menu' is clicked on
+
+21-04-2024T15:36:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product_Navigation/Page_Swag Labs/a_All Items")): Object: 'Object Repository/Product_Navigation/Page_Swag Labs/a_All Items' is clicked on
+
+21-04-2024T15:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Navigation/Page_Swag Labs/a_All Items' is clicked on
+
+21-04-2024T15:36:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product_Navigation/Page_Swag Labs/div_Sauce Labs Fleece JacketIts not every d_e9a1b2")): Object: 'Object Repository/Product_Navigation/Page_Swag Labs/div_Sauce Labs Fleece JacketIts not every d_e9a1b2' is clicked on
+
+21-04-2024T15:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Navigation/Page_Swag Labs/div_Sauce Labs Fleece JacketIts not every d_e9a1b2' is clicked on
+
+21-04-2024T15:36:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product_Navigation/Page_Swag Labs/img_ADD TO CART_inventory_item_img")): Object: 'Object Repository/Product_Navigation/Page_Swag Labs/img_ADD TO CART_inventory_item_img' is clicked on
+
+21-04-2024T15:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Navigation/Page_Swag Labs/img_ADD TO CART_inventory_item_img' is clicked on
+
+21-04-2024T15:36:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product_Navigation/Page_Swag Labs/button_Open Menu")): Object: 'Object Repository/Product_Navigation/Page_Swag Labs/button_Open Menu' is clicked on
+
+21-04-2024T15:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Navigation/Page_Swag Labs/button_Open Menu' is clicked on
+
+21-04-2024T15:36:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product_Navigation/Page_Swag Labs/a_Logout")): Object: 'Object Repository/Product_Navigation/Page_Swag Labs/a_Logout' is clicked on
+
+21-04-2024T15:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Navigation/Page_Swag Labs/a_Logout' is clicked on
+
+21-04-2024T15:36:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2024T15:36:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2024T15:36:04 - [TEST_SUITE][PASSED] - TS_Product_Navigation: Test Cases/Swag_Labs/Product_Navigation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

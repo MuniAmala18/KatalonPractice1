@@ -8,7 +8,7 @@
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027$29.99\u0027])[1]/preceding::div[2]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Product_Navigation/Page_Swag Labs/div_Sauce Labs Backpack_neighbor.png"
+      "pathToScreenshot": "Reports/20240421_153559/Swag_Labs/TS_Product_Navigation/20240421_153600/Object Repository/Product_Navigation/Page_Swag Labs/div_Sauce Labs Backpack_neighbor.png"
     }
   ]
 }
