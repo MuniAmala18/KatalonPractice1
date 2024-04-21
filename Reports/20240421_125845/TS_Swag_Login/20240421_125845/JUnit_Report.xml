@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Swag_Login" time="8.606" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Swag_Login" tests="1" failures="0" errors="0" time="8.606" skipped="0" timestamp="21-04-2024T12:58:49" hostname="VH427KA - IN3554302W1.ey.net" id="Test Suites/TS_Swag_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\VH427KA\\git\\KatalonPractice1\\Reports\\20240421_125845\\TS_Swag_Login\\20240421_125845"/>
+         <property name="logFiles" value="C:\\Users\\VH427KA\\git\\KatalonPractice1\\Reports\\20240421_125845\\TS_Swag_Login\\20240421_125845\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="VH427KA - IN3554302W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="2ba473b0d51d30a71a00393c11705f74"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login" time="8.387" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[21-04-2024T12:58:49 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+21-04-2024T12:58:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2024T12:58:50 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-04-2024T12:58:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2024T12:58:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2024T12:58:52 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/index.html"): Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+21-04-2024T12:58:53 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+21-04-2024T12:58:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/swag_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac")): Object: 'Object Repository/swag_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac' is clicked on
+
+21-04-2024T12:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/swag_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac' is clicked on
+
+21-04-2024T12:58:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/swag_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/swag_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+21-04-2024T12:58:54 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/swag_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+21-04-2024T12:58:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/swag_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/swag_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+21-04-2024T12:58:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/swag_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+21-04-2024T12:58:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/swag_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/swag_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+21-04-2024T12:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/swag_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+21-04-2024T12:58:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/swag_login/Page_Swag Labs/div_Open Menu_app_logo"), 0): Object 'Object Repository/swag_login/Page_Swag Labs/div_Open Menu_app_logo' is present
+
+21-04-2024T12:58:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+21-04-2024T12:58:57 - [MESSAGE][PASSED] - Object 'Object Repository/swag_login/Page_Swag Labs/div_Open Menu_app_logo' is present
+
+21-04-2024T12:58:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2024T12:58:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2024T12:58:49 - [TEST_SUITE][PASSED] - TS_Swag_Login: Test Cases/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
