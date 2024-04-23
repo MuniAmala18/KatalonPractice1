@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_AddtocartLogin,Edge Chromium 124,,,23-04-2024 18:48:02,23-04-2024 18:48:30,28.537s,PASSED
+,,,,,,,
+Test Cases/Swag_Labs/Swag_Login,Edge Chromium 124,,,23-04-2024 18:48:02,23-04-2024 18:48:12,9.759s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,23-04-2024 18:48:02,23-04-2024 18:48:05,3.271s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/index.html"")",Edge Chromium 124,,,23-04-2024 18:48:05,23-04-2024 18:48:07,1.143s,PASSED
+"setText(findTestObject(""Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), ""standard_userse"")",Edge Chromium 124,,,23-04-2024 18:48:07,23-04-2024 18:48:08,1.020s,PASSED
+"click(findTestObject(""Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""))",Edge Chromium 124,,,23-04-2024 18:48:08,23-04-2024 18:48:08,0.727s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), ""9NLz+4tGZcQ="")",Edge Chromium 124,,,23-04-2024 18:48:08,23-04-2024 18:48:09,0.574s,PASSED
+"setText(findTestObject(""Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), ""standard_user"")",Edge Chromium 124,,,23-04-2024 18:48:09,23-04-2024 18:48:10,0.746s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 124,,,23-04-2024 18:48:10,23-04-2024 18:48:10,0.519s,PASSED
+"click(findTestObject(""Object Repository/swaglabs_login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Edge Chromium 124,,,23-04-2024 18:48:10,23-04-2024 18:48:12,1.421s,PASSED
+,,,,,,,
+Test Cases/Swag_Labs/AddToCart,Edge Chromium 124,,,23-04-2024 18:48:12,23-04-2024 18:48:30,18.576s,PASSED
+"callTestCase(findTestCase(""Swag_Labs/Swag_Login""), [:], STOP_ON_FAILURE)",Edge Chromium 124,,,23-04-2024 18:48:12,23-04-2024 18:48:19,7.454s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/button_ADD TO CART""), 0)",Edge Chromium 124,,,23-04-2024 18:48:19,23-04-2024 18:48:20,0.326s,PASSED
+"click(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/button_ADD TO CART""))",Edge Chromium 124,,,23-04-2024 18:48:20,23-04-2024 18:48:20,0.379s,PASSED
+"click(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/svg_Open Menu_svg-inline--fa fa-shopping-ca_f4ec0f""))",Edge Chromium 124,,,23-04-2024 18:48:20,23-04-2024 18:48:21,1.120s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/cart.html"")",Edge Chromium 124,,,23-04-2024 18:48:21,23-04-2024 18:48:21,0.056s,PASSED
+"rightClick(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/path""))",Edge Chromium 124,,,23-04-2024 18:48:21,23-04-2024 18:48:24,2.950s,PASSED
+"click(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/div_Sauce Labs Backpack""))",Edge Chromium 124,,,23-04-2024 18:48:24,23-04-2024 18:48:25,0.878s,PASSED
+"click(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/path""))",Edge Chromium 124,,,23-04-2024 18:48:25,23-04-2024 18:48:28,2.869s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/span_1""), 0)",Edge Chromium 124,,,23-04-2024 18:48:28,23-04-2024 18:48:28,0.465s,PASSED
+"click(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/a_Continue Shopping""))",Edge Chromium 124,,,23-04-2024 18:48:28,23-04-2024 18:48:29,0.527s,PASSED
+"click(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/button_Open Menu""))",Edge Chromium 124,,,23-04-2024 18:48:29,23-04-2024 18:48:29,0.424s,PASSED
+"click(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/a_Logout""))",Edge Chromium 124,,,23-04-2024 18:48:29,23-04-2024 18:48:30,0.464s,PASSED
+closeBrowser(),Edge Chromium 124,,,23-04-2024 18:48:30,23-04-2024 18:48:30,0.380s,PASSED

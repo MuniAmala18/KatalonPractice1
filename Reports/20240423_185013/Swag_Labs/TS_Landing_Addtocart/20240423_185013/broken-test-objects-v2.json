@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Swag_AddToCart/Page_Swag Labs/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:role\u003dlink[name\u003d\"1\"i]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/20240423_185013/Swag_Labs/TS_Landing_Addtocart/20240423_185013/Object Repository/Swag_AddToCart/Page_Swag Labs/path_SMART_LOCATOR.png"
+    }
+  ]
+}
