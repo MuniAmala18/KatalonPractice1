@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_AddToCart,Edge Chromium 124,,,23-04-2024 18:35:22,23-04-2024 18:35:43,20.873s,PASSED
+,,,,,,,
+Test Cases/Swag_Labs/AddToCart,Edge Chromium 124,,,23-04-2024 18:35:22,23-04-2024 18:35:43,20.626s,PASSED
+"callTestCase(findTestCase(""Swag_Labs/Swag_Login""), [:], STOP_ON_FAILURE)",Edge Chromium 124,,,23-04-2024 18:35:22,23-04-2024 18:35:32,9.182s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/button_ADD TO CART""), 0)",Edge Chromium 124,,,23-04-2024 18:35:32,23-04-2024 18:35:32,0.395s,PASSED
+"click(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/button_ADD TO CART""))",Edge Chromium 124,,,23-04-2024 18:35:32,23-04-2024 18:35:32,0.405s,PASSED
+"click(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/svg_Open Menu_svg-inline--fa fa-shopping-ca_f4ec0f""))",Edge Chromium 124,,,23-04-2024 18:35:32,23-04-2024 18:35:33,1.069s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/cart.html"")",Edge Chromium 124,,,23-04-2024 18:35:33,23-04-2024 18:35:34,0.061s,PASSED
+"rightClick(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/path""))",Edge Chromium 124,,,23-04-2024 18:35:34,23-04-2024 18:35:36,2.987s,PASSED
+"click(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/div_Sauce Labs Backpack""))",Edge Chromium 124,,,23-04-2024 18:35:36,23-04-2024 18:35:37,0.862s,PASSED
+"click(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/path""))",Edge Chromium 124,,,23-04-2024 18:35:37,23-04-2024 18:35:40,2.822s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/span_1""), 0)",Edge Chromium 124,,,23-04-2024 18:35:40,23-04-2024 18:35:41,0.487s,PASSED
+"click(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/a_Continue Shopping""))",Edge Chromium 124,,,23-04-2024 18:35:41,23-04-2024 18:35:41,0.470s,PASSED
+"click(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/button_Open Menu""))",Edge Chromium 124,,,23-04-2024 18:35:41,23-04-2024 18:35:42,0.398s,PASSED
+"click(findTestObject(""Object Repository/Swag_AddToCart/Page_Swag Labs/a_Logout""))",Edge Chromium 124,,,23-04-2024 18:35:42,23-04-2024 18:35:42,0.512s,PASSED
+closeBrowser(),Edge Chromium 124,,,23-04-2024 18:35:42,23-04-2024 18:35:43,0.522s,PASSED
