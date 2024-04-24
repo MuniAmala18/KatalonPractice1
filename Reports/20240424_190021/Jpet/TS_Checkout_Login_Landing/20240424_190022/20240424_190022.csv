@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Checkout_Login_Landing,Edge Chromium 124,,,24-04-2024 19:00:27,24-04-2024 19:01:13,46.475s,PASSED
+,,,,,,,
+Test Cases/Jpet/JpetLogin,Edge Chromium 124,,,24-04-2024 19:00:27,24-04-2024 19:00:40,12.832s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,24-04-2024 19:00:27,24-04-2024 19:00:33,5.338s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 124,,,24-04-2024 19:00:33,24-04-2024 19:00:33,0.763s,PASSED
+"click(findTestObject(""Object Repository/JpetLogin/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 124,,,24-04-2024 19:00:33,24-04-2024 19:00:35,1.604s,PASSED
+"click(findTestObject(""Object Repository/JpetLogin/Page_JPetStore Demo/a_Sign In""))",Edge Chromium 124,,,24-04-2024 19:00:35,24-04-2024 19:00:36,0.821s,PASSED
+"setText(findTestObject(""Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_username""), ""raj1"")",Edge Chromium 124,,,24-04-2024 19:00:36,24-04-2024 19:00:37,0.829s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_password""), ""qPDWtMYEx+8="")",Edge Chromium 124,,,24-04-2024 19:00:37,24-04-2024 19:00:37,0.659s,PASSED
+"click(findTestObject(""Object Repository/JpetLogin/Page_JPetStore Demo/p_UsernamesetTimeout(function()tryvar zdocu_67db2e""))",Edge Chromium 124,,,24-04-2024 19:00:37,24-04-2024 19:00:38,0.489s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_password""), ""F1QkgKVvKLQ="")",Edge Chromium 124,,,24-04-2024 19:00:38,24-04-2024 19:00:38,0.474s,PASSED
+"click(findTestObject(""Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_signon""))",Edge Chromium 124,,,24-04-2024 19:00:38,24-04-2024 19:00:39,1.088s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/JpetLogin/Page_JPetStore Demo/div_Welcome raj1""), 0)",Edge Chromium 124,,,24-04-2024 19:00:39,24-04-2024 19:00:40,0.418s,PASSED
+,,,,,,,
+Test Cases/Jpet/Checkout_Pet,Edge Chromium 124,,,24-04-2024 19:00:40,24-04-2024 19:01:00,19.787s,PASSED
+"callTestCase(findTestCase(""Jpet/JpetLogin""), [:], STOP_ON_FAILURE)",Edge Chromium 124,,,24-04-2024 19:00:40,24-04-2024 19:00:52,11.867s,PASSED
+"click(findTestObject(""Object Repository/Pet_Checkout/Page_JPetStore Demo/img""))",Edge Chromium 124,,,24-04-2024 19:00:52,24-04-2024 19:00:53,0.823s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH"")",Edge Chromium 124,,,24-04-2024 19:00:53,24-04-2024 19:00:53,0.275s,PASSED
+"click(findTestObject(""Object Repository/Pet_Checkout/Page_JPetStore Demo/a_FI-SW-02""))",Edge Chromium 124,,,24-04-2024 19:00:53,24-04-2024 19:00:54,0.741s,PASSED
+"click(findTestObject(""Object Repository/Pet_Checkout/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 124,,,24-04-2024 19:00:54,24-04-2024 19:00:55,0.757s,PASSED
+"click(findTestObject(""Object Repository/Pet_Checkout/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities""))",Edge Chromium 124,,,24-04-2024 19:00:55,24-04-2024 19:00:55,0.871s,PASSED
+"click(findTestObject(""Object Repository/Pet_Checkout/Page_JPetStore Demo/a_Proceed to Checkout""))",Edge Chromium 124,,,24-04-2024 19:00:55,24-04-2024 19:00:56,0.966s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Pet_Checkout/Page_JPetStore Demo/th_Payment Details""), 0)",Edge Chromium 124,,,24-04-2024 19:00:56,24-04-2024 19:00:57,0.373s,PASSED
+"click(findTestObject(""Object Repository/Pet_Checkout/Page_JPetStore Demo/input_Ship to different address_newOrder""))",Edge Chromium 124,,,24-04-2024 19:00:57,24-04-2024 19:00:57,0.687s,PASSED
+"click(findTestObject(""Object Repository/Pet_Checkout/Page_JPetStore Demo/a_Confirm""))",Edge Chromium 124,,,24-04-2024 19:00:57,24-04-2024 19:00:58,0.695s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Pet_Checkout/Page_JPetStore Demo/li_Thank you, your order has been submitted""), 0)",Edge Chromium 124,,,24-04-2024 19:00:58,24-04-2024 19:00:59,0.370s,PASSED
+"click(findTestObject(""Object Repository/Pet_Checkout/Page_JPetStore Demo/a_Return to Main Menu""))",Edge Chromium 124,,,24-04-2024 19:00:59,24-04-2024 19:00:59,0.707s,PASSED
+closeBrowser(),Edge Chromium 124,,,24-04-2024 19:00:59,24-04-2024 19:01:00,0.351s,PASSED
+,,,,,,,
+Test Cases/Jpet/JpetLandingPage,Edge Chromium 124,,,24-04-2024 19:01:00,24-04-2024 19:01:13,13.647s,PASSED
+"callTestCase(findTestCase(""Jpet/JpetLogin""), [:], STOP_ON_FAILURE)",Edge Chromium 124,,,24-04-2024 19:01:00,24-04-2024 19:01:11,11.329s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Jpet_LandingPage/Page_JPetStore Demo/img""), 0)",Edge Chromium 124,,,24-04-2024 19:01:11,24-04-2024 19:01:11,0.384s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Jpet_LandingPage/Page_JPetStore Demo/div_Welcome raj1""), ""Welcome raj1!"")",Edge Chromium 124,,,24-04-2024 19:01:11,24-04-2024 19:01:12,0.407s,PASSED
+"click(findTestObject(""Object Repository/Jpet_LandingPage/Page_JPetStore Demo/a_Sign Out""))",Edge Chromium 124,,,24-04-2024 19:01:12,24-04-2024 19:01:13,0.879s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Edge Chromium 124,,,24-04-2024 19:01:13,24-04-2024 19:01:13,0.274s,PASSED
+closeBrowser(),Edge Chromium 124,,,24-04-2024 19:01:13,24-04-2024 19:01:13,0.292s,PASSED
