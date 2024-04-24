@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login_Landing" time="27.29" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Login_Landing" tests="2" failures="0" errors="0" time="27.29" skipped="0" timestamp="24-04-2024T18:45:34" hostname="VH427KA - IN3554302W1.ey.net" id="Test Suites/Jpet/TS_Login_Landing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\VH427KA\\git\\KatalonPractice1\\Reports\\20240424_184530\\Jpet\\TS_Login_Landing\\20240424_184530"/>
+         <property name="logFiles" value="C:\\Users\\VH427KA\\git\\KatalonPractice1\\Reports\\20240424_184530\\Jpet\\TS_Login_Landing\\20240424_184530\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="VH427KA - IN3554302W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="192.168.40.128"/>
+         <property name="sessionId" value="4ee5b8bbfeafb3ee378d6f5b2bc0542f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Jpet/JpetLogin" time="12.831" classname="Test Cases/Jpet/JpetLogin" status="PASSED">
+         <system-out><![CDATA[24-04-2024T18:45:34 - [TEST_CASE][PASSED] - Test Cases/Jpet/JpetLogin: Test Cases/Jpet/JpetLogin
+
+24-04-2024T18:45:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-04-2024T18:45:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+24-04-2024T18:45:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-04-2024T18:45:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-04-2024T18:45:39 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+24-04-2024T18:45:40 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+24-04-2024T18:45:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+24-04-2024T18:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+24-04-2024T18:45:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/a_Sign In")): Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-04-2024T18:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-04-2024T18:45:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_username"), "raj1"): Text 'raj1' is set on object 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-04-2024T18:45:44 - [MESSAGE][PASSED] - Text 'raj1' is set on object 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-04-2024T18:45:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_password"), "qPDWtMYEx+8="): Text ****** has been set on object 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_password'
+
+24-04-2024T18:45:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_password'
+
+24-04-2024T18:45:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/p_UsernamesetTimeout(function()tryvar zdocu_67db2e")): Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/p_UsernamesetTimeout(function()tryvar zdocu_67db2e' is clicked on
+
+24-04-2024T18:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/p_UsernamesetTimeout(function()tryvar zdocu_67db2e' is clicked on
+
+24-04-2024T18:45:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_password"), "F1QkgKVvKLQ="): Text ****** has been set on object 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_password'
+
+24-04-2024T18:45:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_password'
+
+24-04-2024T18:45:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-04-2024T18:45:46 - [MESSAGE][PASSED] - Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-04-2024T18:45:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/div_Welcome raj1"), 0): Object 'Object Repository/JpetLogin/Page_JPetStore Demo/div_Welcome raj1' is present
+
+24-04-2024T18:45:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2024T18:45:47 - [MESSAGE][PASSED] - Object 'Object Repository/JpetLogin/Page_JPetStore Demo/div_Welcome raj1' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Jpet/JpetLandingPage" time="14.278" classname="Test Cases/Jpet/JpetLandingPage" status="PASSED">
+         <system-out><![CDATA[24-04-2024T18:45:47 - [TEST_CASE][PASSED] - Test Cases/Jpet/JpetLandingPage: Test Cases/Jpet/JpetLandingPage
+
+24-04-2024T18:45:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Jpet/JpetLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Jpet/JpetLogin' successfully
+
+24-04-2024T18:45:47 - [TEST_CASE][PASSED] - Test Cases/Jpet/JpetLogin: Test Cases/Jpet/JpetLogin
+
+24-04-2024T18:45:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-04-2024T18:45:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-04-2024T18:45:48 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+24-04-2024T18:45:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-04-2024T18:45:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-04-2024T18:45:52 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+24-04-2024T18:45:53 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+24-04-2024T18:45:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+24-04-2024T18:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+24-04-2024T18:45:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/a_Sign In")): Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-04-2024T18:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-04-2024T18:45:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_username"), "raj1"): Text 'raj1' is set on object 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-04-2024T18:45:56 - [MESSAGE][PASSED] - Text 'raj1' is set on object 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-04-2024T18:45:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_password"), "qPDWtMYEx+8="): Text ****** has been set on object 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_password'
+
+24-04-2024T18:45:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_password'
+
+24-04-2024T18:45:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/p_UsernamesetTimeout(function()tryvar zdocu_67db2e")): Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/p_UsernamesetTimeout(function()tryvar zdocu_67db2e' is clicked on
+
+24-04-2024T18:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/p_UsernamesetTimeout(function()tryvar zdocu_67db2e' is clicked on
+
+24-04-2024T18:45:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_password"), "F1QkgKVvKLQ="): Text ****** has been set on object 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_password'
+
+24-04-2024T18:45:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_password'
+
+24-04-2024T18:45:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-04-2024T18:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/JpetLogin/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-04-2024T18:45:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/JpetLogin/Page_JPetStore Demo/div_Welcome raj1"), 0): Object 'Object Repository/JpetLogin/Page_JPetStore Demo/div_Welcome raj1' is present
+
+24-04-2024T18:45:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2024T18:45:59 - [MESSAGE][PASSED] - Object 'Object Repository/JpetLogin/Page_JPetStore Demo/div_Welcome raj1' is present
+
+24-04-2024T18:45:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Jpet/JpetLogin' successfully
+
+24-04-2024T18:45:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Jpet_LandingPage/Page_JPetStore Demo/img"), 0): Object 'Object Repository/Jpet_LandingPage/Page_JPetStore Demo/img' is present
+
+24-04-2024T18:45:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2024T18:45:59 - [MESSAGE][PASSED] - Object 'Object Repository/Jpet_LandingPage/Page_JPetStore Demo/img' is present
+
+24-04-2024T18:45:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Jpet_LandingPage/Page_JPetStore Demo/div_Welcome raj1"), "Welcome raj1!"): Actual text and expected text of test object 'Object Repository/Jpet_LandingPage/Page_JPetStore Demo/div_Welcome raj1' are matched.
+
+24-04-2024T18:46:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Jpet_LandingPage/Page_JPetStore Demo/div_Welcome raj1' are matched.
+
+24-04-2024T18:46:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Jpet_LandingPage/Page_JPetStore Demo/a_Sign Out")): Object: 'Object Repository/Jpet_LandingPage/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+24-04-2024T18:46:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Jpet_LandingPage/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+24-04-2024T18:46:01 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/actions/Catalog.action"): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-04-2024T18:46:01 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-04-2024T18:46:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-04-2024T18:46:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-04-2024T18:45:34 - [TEST_SUITE][PASSED] - TS_Login_Landing: Test Cases/Jpet/JpetLandingPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
