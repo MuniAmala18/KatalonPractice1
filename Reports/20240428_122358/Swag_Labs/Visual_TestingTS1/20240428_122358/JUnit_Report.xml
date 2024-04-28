@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Visual_TestingTS1" time="10.86" tests="1" failures="0" errors="0">
+   <testsuite name="Visual_TestingTS1" tests="1" failures="0" errors="0" time="10.86" skipped="0" timestamp="28-04-2024T12:24:15" hostname="VH427KA - IN3554302W1.ey.net" id="Test Suites/Swag_Labs/Visual_TestingTS1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\VH427KA\\git\\KatalonPractice1\\Reports\\20240428_122358\\Swag_Labs\\Visual_TestingTS1\\20240428_122358"/>
+         <property name="logFiles" value="C:\\Users\\VH427KA\\git\\KatalonPractice1\\Reports\\20240428_122358\\Swag_Labs\\Visual_TestingTS1\\20240428_122358\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-mypic.png"/>
+         <property name="hostName" value="VH427KA - IN3554302W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="748257d3f425c67301b6931803086bdc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Visual_Testing/Visual_TestingCheckpoint1" time="10.65" classname="Test Cases/Visual_Testing/Visual_TestingCheckpoint1" status="PASSED">
+         <system-out><![CDATA[28-04-2024T12:24:15 - [TEST_CASE][PASSED] - Test Cases/Visual_Testing/Visual_TestingCheckpoint1: Test Cases/Visual_Testing/Visual_TestingCheckpoint1
+
+28-04-2024T12:24:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-04-2024T12:24:15 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-04-2024T12:24:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-04-2024T12:24:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-04-2024T12:24:19 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+28-04-2024T12:24:21 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+28-04-2024T12:24:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Visual_TEsting1/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/Visual_TEsting1/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+28-04-2024T12:24:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Visual_TEsting1/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+28-04-2024T12:24:23 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("mypic"): Taking screenshot successfully
+
+28-04-2024T12:24:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+28-04-2024T12:24:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-mypic.png]]
+
+28-04-2024T12:24:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Visual_TEsting1/Page_JPetStore Demo/img")): Object: 'Object Repository/Visual_TEsting1/Page_JPetStore Demo/img' is clicked on
+
+28-04-2024T12:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Visual_TEsting1/Page_JPetStore Demo/img' is clicked on
+
+28-04-2024T12:24:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-04-2024T12:24:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-04-2024T12:24:15 - [TEST_SUITE][PASSED] - Visual_TestingTS1: Test Cases/Visual_Testing/Visual_TestingCheckpoint1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
