@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VisualCP10,Edge Chromium 124,,,28-04-2024 13:22:06,28-04-2024 13:22:24,18.267s,PASSED
+,,,,,,,
+Test Cases/Visual_Testing/VisualTesting2,Edge Chromium 124,,,28-04-2024 13:22:06,28-04-2024 13:22:16,10.085s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,28-04-2024 13:22:06,28-04-2024 13:22:10,3.258s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 124,,,28-04-2024 13:22:10,28-04-2024 13:22:11,1.192s,PASSED
+"click(findTestObject(""Object Repository/VisualTesting2/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 124,,,28-04-2024 13:22:11,28-04-2024 13:22:12,1.515s,PASSED
+"click(findTestObject(""Object Repository/VisualTesting2/Page_JPetStore Demo/img""))",Edge Chromium 124,,,28-04-2024 13:22:12,28-04-2024 13:22:13,0.635s,PASSED
+"click(findTestObject(""Object Repository/VisualTesting2/Page_JPetStore Demo/a_FI-SW-01""))",Edge Chromium 124,,,28-04-2024 13:22:13,28-04-2024 13:22:14,0.709s,PASSED
+"click(findTestObject(""Object Repository/VisualTesting2/Page_JPetStore Demo/a_EST-1""))",Edge Chromium 124,,,28-04-2024 13:22:14,28-04-2024 13:22:15,0.927s,PASSED
+"takeScreenshotAsCheckpoint(""fish"")",Edge Chromium 124,,,28-04-2024 13:22:15,28-04-2024 13:22:15,0.620s,PASSED
+"click(findTestObject(""Object Repository/VisualTesting2/Page_JPetStore Demo/img_Sign In_img_cart""))",Edge Chromium 124,,,28-04-2024 13:22:15,28-04-2024 13:22:16,0.574s,PASSED
+closeBrowser(),Edge Chromium 124,,,28-04-2024 13:22:16,28-04-2024 13:22:16,0.270s,PASSED
+,,,,,,,
+Test Cases/Visual_Testing/VisualTesting3,Edge Chromium 124,,,28-04-2024 13:22:16,28-04-2024 13:22:24,7.956s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,28-04-2024 13:22:16,28-04-2024 13:22:18,2.114s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 124,,,28-04-2024 13:22:18,28-04-2024 13:22:19,1.038s,PASSED
+"click(findTestObject(""Object Repository/VisualTesting3/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 124,,,28-04-2024 13:22:19,28-04-2024 13:22:21,1.284s,PASSED
+"click(findTestObject(""Object Repository/VisualTesting3/Page_JPetStore Demo/img""))",Edge Chromium 124,,,28-04-2024 13:22:21,28-04-2024 13:22:21,0.579s,PASSED
+"click(findTestObject(""Object Repository/VisualTesting3/Page_JPetStore Demo/a_K9-BD-01""))",Edge Chromium 124,,,28-04-2024 13:22:21,28-04-2024 13:22:22,0.600s,PASSED
+"click(findTestObject(""Object Repository/VisualTesting3/Page_JPetStore Demo/a_EST-6""))",Edge Chromium 124,,,28-04-2024 13:22:22,28-04-2024 13:22:23,0.893s,PASSED
+"takeScreenshotAsCheckpoint(""Dog"")",Edge Chromium 124,,,28-04-2024 13:22:23,28-04-2024 13:22:23,0.494s,PASSED
+"click(findTestObject(""Object Repository/VisualTesting3/Page_JPetStore Demo/img_1""))",Edge Chromium 124,,,28-04-2024 13:22:23,28-04-2024 13:22:24,0.582s,PASSED
+closeBrowser(),Edge Chromium 124,,,28-04-2024 13:22:24,28-04-2024 13:22:24,0.250s,PASSED
